@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zd/CLionProjects/zd18_thss/20200923_特定深度节点链表/lisfOfDepth.cpp
+cstdlib
+-
+vector
+-
+queue
+-
+iostream
+-
+
