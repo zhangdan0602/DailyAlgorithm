@@ -77,27 +77,27 @@ include CMakeFiles/zd18_thss.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/zd18_thss.dir/flags.make
 
-CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.o: CMakeFiles/zd18_thss.dir/flags.make
-CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.o: ../20200923_特定深度节点链表/lisfOfDepth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.o -c /home/zd/CLionProjects/zd18_thss/20200923_特定深度节点链表/lisfOfDepth.cpp
+CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.o: CMakeFiles/zd18_thss.dir/flags.make
+CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.o: ../20200924_N-aryTreePreorderTraversal/preoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.o -c /home/zd/CLionProjects/zd18_thss/20200924_N-aryTreePreorderTraversal/preoder.cpp
 
-CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zd/CLionProjects/zd18_thss/20200923_特定深度节点链表/lisfOfDepth.cpp > CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.i
+CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zd/CLionProjects/zd18_thss/20200924_N-aryTreePreorderTraversal/preoder.cpp > CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.i
 
-CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zd/CLionProjects/zd18_thss/20200923_特定深度节点链表/lisfOfDepth.cpp -o CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.s
+CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zd/CLionProjects/zd18_thss/20200924_N-aryTreePreorderTraversal/preoder.cpp -o CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.s
 
 # Object files for target zd18_thss
 zd18_thss_OBJECTS = \
-"CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.o"
+"CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.o"
 
 # External object files for target zd18_thss
 zd18_thss_EXTERNAL_OBJECTS =
 
-zd18_thss: CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.o
+zd18_thss: CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.o
 zd18_thss: CMakeFiles/zd18_thss.dir/build.make
 zd18_thss: CMakeFiles/zd18_thss.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable zd18_thss"

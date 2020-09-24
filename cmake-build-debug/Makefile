@@ -143,32 +143,32 @@ zd18_thss/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/build
 .PHONY : zd18_thss/fast
 
-20200923_特定深度节点链表/lisfOfDepth.o: 20200923_特定深度节点链表/lisfOfDepth.cpp.o
+20200924_N-aryTreePreorderTraversal/preoder.o: 20200924_N-aryTreePreorderTraversal/preoder.cpp.o
 
-.PHONY : 20200923_特定深度节点链表/lisfOfDepth.o
+.PHONY : 20200924_N-aryTreePreorderTraversal/preoder.o
 
 # target to build an object file
-20200923_特定深度节点链表/lisfOfDepth.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.o
-.PHONY : 20200923_特定深度节点链表/lisfOfDepth.cpp.o
+20200924_N-aryTreePreorderTraversal/preoder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.o
+.PHONY : 20200924_N-aryTreePreorderTraversal/preoder.cpp.o
 
-20200923_特定深度节点链表/lisfOfDepth.i: 20200923_特定深度节点链表/lisfOfDepth.cpp.i
+20200924_N-aryTreePreorderTraversal/preoder.i: 20200924_N-aryTreePreorderTraversal/preoder.cpp.i
 
-.PHONY : 20200923_特定深度节点链表/lisfOfDepth.i
+.PHONY : 20200924_N-aryTreePreorderTraversal/preoder.i
 
 # target to preprocess a source file
-20200923_特定深度节点链表/lisfOfDepth.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.i
-.PHONY : 20200923_特定深度节点链表/lisfOfDepth.cpp.i
+20200924_N-aryTreePreorderTraversal/preoder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.i
+.PHONY : 20200924_N-aryTreePreorderTraversal/preoder.cpp.i
 
-20200923_特定深度节点链表/lisfOfDepth.s: 20200923_特定深度节点链表/lisfOfDepth.cpp.s
+20200924_N-aryTreePreorderTraversal/preoder.s: 20200924_N-aryTreePreorderTraversal/preoder.cpp.s
 
-.PHONY : 20200923_特定深度节点链表/lisfOfDepth.s
+.PHONY : 20200924_N-aryTreePreorderTraversal/preoder.s
 
 # target to generate assembly for a file
-20200923_特定深度节点链表/lisfOfDepth.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.s
-.PHONY : 20200923_特定深度节点链表/lisfOfDepth.cpp.s
+20200924_N-aryTreePreorderTraversal/preoder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.s
+.PHONY : 20200924_N-aryTreePreorderTraversal/preoder.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... zd18_thss"
-	@echo "... 20200923_特定深度节点链表/lisfOfDepth.o"
-	@echo "... 20200923_特定深度节点链表/lisfOfDepth.i"
-	@echo "... 20200923_特定深度节点链表/lisfOfDepth.s"
+	@echo "... 20200924_N-aryTreePreorderTraversal/preoder.o"
+	@echo "... 20200924_N-aryTreePreorderTraversal/preoder.i"
+	@echo "... 20200924_N-aryTreePreorderTraversal/preoder.s"
 .PHONY : help
 
 

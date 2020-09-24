@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/zd18_thss.dir/20200923_特定深度节点链表/lisfOfDepth.cpp.o  -o zd18_thss 
+/usr/bin/c++  -g   CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.o  -o zd18_thss 
