@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zd/CLionProjects/zd18_thss/20200924_N-aryTreePreorderTraversal/preoder.cpp" "/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles/zd18_thss.dir/20200924_N-aryTreePreorderTraversal/preoder.cpp.o"
+  "/home/zd/CLionProjects/zd18_thss/20201006_从上到下打印二叉树2/levelOrder.cpp" "/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles/zd18_thss.dir/20201006_从上到下打印二叉树2/levelOrder.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

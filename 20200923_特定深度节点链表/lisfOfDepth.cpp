@@ -66,7 +66,6 @@ public:
                     leftNode -> next = new ListNode(temp -> val);
                     leftNode = leftNode -> next;
                     cout << leftNode->val << endl;
-
                 }
                 if (temp -> left)
                     level.push(temp -> left);
