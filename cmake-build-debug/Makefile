@@ -143,32 +143,32 @@ zd18_thss/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/build
 .PHONY : zd18_thss/fast
 
-20201007_最大二叉树2/insertInttoMaxTree.o: 20201007_最大二叉树2/insertInttoMaxTree.cpp.o
+20201009_好叶子节点对的数量/countPairs.o: 20201009_好叶子节点对的数量/countPairs.cpp.o
 
-.PHONY : 20201007_最大二叉树2/insertInttoMaxTree.o
+.PHONY : 20201009_好叶子节点对的数量/countPairs.o
 
 # target to build an object file
-20201007_最大二叉树2/insertInttoMaxTree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.o
-.PHONY : 20201007_最大二叉树2/insertInttoMaxTree.cpp.o
+20201009_好叶子节点对的数量/countPairs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o
+.PHONY : 20201009_好叶子节点对的数量/countPairs.cpp.o
 
-20201007_最大二叉树2/insertInttoMaxTree.i: 20201007_最大二叉树2/insertInttoMaxTree.cpp.i
+20201009_好叶子节点对的数量/countPairs.i: 20201009_好叶子节点对的数量/countPairs.cpp.i
 
-.PHONY : 20201007_最大二叉树2/insertInttoMaxTree.i
+.PHONY : 20201009_好叶子节点对的数量/countPairs.i
 
 # target to preprocess a source file
-20201007_最大二叉树2/insertInttoMaxTree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.i
-.PHONY : 20201007_最大二叉树2/insertInttoMaxTree.cpp.i
+20201009_好叶子节点对的数量/countPairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.i
+.PHONY : 20201009_好叶子节点对的数量/countPairs.cpp.i
 
-20201007_最大二叉树2/insertInttoMaxTree.s: 20201007_最大二叉树2/insertInttoMaxTree.cpp.s
+20201009_好叶子节点对的数量/countPairs.s: 20201009_好叶子节点对的数量/countPairs.cpp.s
 
-.PHONY : 20201007_最大二叉树2/insertInttoMaxTree.s
+.PHONY : 20201009_好叶子节点对的数量/countPairs.s
 
 # target to generate assembly for a file
-20201007_最大二叉树2/insertInttoMaxTree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.s
-.PHONY : 20201007_最大二叉树2/insertInttoMaxTree.cpp.s
+20201009_好叶子节点对的数量/countPairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.s
+.PHONY : 20201009_好叶子节点对的数量/countPairs.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... zd18_thss"
-	@echo "... 20201007_最大二叉树2/insertInttoMaxTree.o"
-	@echo "... 20201007_最大二叉树2/insertInttoMaxTree.i"
-	@echo "... 20201007_最大二叉树2/insertInttoMaxTree.s"
+	@echo "... 20201009_好叶子节点对的数量/countPairs.o"
+	@echo "... 20201009_好叶子节点对的数量/countPairs.i"
+	@echo "... 20201009_好叶子节点对的数量/countPairs.s"
 .PHONY : help
 
 

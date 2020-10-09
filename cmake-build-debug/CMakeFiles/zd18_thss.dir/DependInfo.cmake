@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zd/CLionProjects/zd18_thss/20201007_最大二叉树2/insertInttoMaxTree.cpp" "/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.o"
+  "/home/zd/CLionProjects/zd18_thss/20201009_好叶子节点对的数量/countPairs.cpp" "/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

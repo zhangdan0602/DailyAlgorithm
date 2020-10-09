@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.o"
+  "CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o"
   "zd18_thss"
   "zd18_thss.pdb"
 )

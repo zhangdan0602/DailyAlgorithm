@@ -77,27 +77,27 @@ include CMakeFiles/zd18_thss.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/zd18_thss.dir/flags.make
 
-CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.o: CMakeFiles/zd18_thss.dir/flags.make
-CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.o: ../20201007_最大二叉树2/insertInttoMaxTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.o -c /home/zd/CLionProjects/zd18_thss/20201007_最大二叉树2/insertInttoMaxTree.cpp
+CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o: CMakeFiles/zd18_thss.dir/flags.make
+CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o: ../20201009_好叶子节点对的数量/countPairs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o -c /home/zd/CLionProjects/zd18_thss/20201009_好叶子节点对的数量/countPairs.cpp
 
-CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zd/CLionProjects/zd18_thss/20201007_最大二叉树2/insertInttoMaxTree.cpp > CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.i
+CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zd/CLionProjects/zd18_thss/20201009_好叶子节点对的数量/countPairs.cpp > CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.i
 
-CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zd/CLionProjects/zd18_thss/20201007_最大二叉树2/insertInttoMaxTree.cpp -o CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.s
+CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zd/CLionProjects/zd18_thss/20201009_好叶子节点对的数量/countPairs.cpp -o CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.s
 
 # Object files for target zd18_thss
 zd18_thss_OBJECTS = \
-"CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.o"
+"CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o"
 
 # External object files for target zd18_thss
 zd18_thss_EXTERNAL_OBJECTS =
 
-zd18_thss: CMakeFiles/zd18_thss.dir/20201007_最大二叉树2/insertInttoMaxTree.cpp.o
+zd18_thss: CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o
 zd18_thss: CMakeFiles/zd18_thss.dir/build.make
 zd18_thss: CMakeFiles/zd18_thss.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable zd18_thss"
