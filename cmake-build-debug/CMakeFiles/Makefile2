@@ -55,19 +55,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/zd/Downloads/clion-2020.2.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/zd/Downloads/clion-2020.2.3/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zd/CLionProjects/zd18_thss
+CMAKE_SOURCE_DIR = /Users/zd18/DailyAlgorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zd/CLionProjects/zd18_thss/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zd18/DailyAlgorithm/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/zd18_thss.dir/clean
 CMakeFiles/zd18_thss.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target zd18_thss"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target zd18_thss"
 .PHONY : CMakeFiles/zd18_thss.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/zd18_thss.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zd18_thss.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/zd18_thss.dir/rule
 
 # Convenience name for target.

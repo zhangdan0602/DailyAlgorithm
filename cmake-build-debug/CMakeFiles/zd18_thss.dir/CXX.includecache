@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/zd/CLionProjects/zd18_thss/20201009_好叶子节点对的数量/countPairs.cpp
+/Users/zd18/DailyAlgorithm/20201014_路径总和/hasPathSum.cpp
+cstddef
+-
 iostream
--
-vector
--
-tuple
 -
 

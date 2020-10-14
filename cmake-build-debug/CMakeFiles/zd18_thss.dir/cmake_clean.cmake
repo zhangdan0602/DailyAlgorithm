@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o"
+  "CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o"
   "zd18_thss"
   "zd18_thss.pdb"
 )

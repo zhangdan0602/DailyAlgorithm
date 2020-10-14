@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/zd/Downloads/clion-2020.2.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/zd/Downloads/clion-2020.2.3/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zd/CLionProjects/zd18_thss
+CMAKE_SOURCE_DIR = /Users/zd18/DailyAlgorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zd/CLionProjects/zd18_thss/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zd18/DailyAlgorithm/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/zd18_thss.dir/depend.make
@@ -77,30 +77,30 @@ include CMakeFiles/zd18_thss.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/zd18_thss.dir/flags.make
 
-CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o: CMakeFiles/zd18_thss.dir/flags.make
-CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o: ../20201009_好叶子节点对的数量/countPairs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o -c /home/zd/CLionProjects/zd18_thss/20201009_好叶子节点对的数量/countPairs.cpp
+CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o: CMakeFiles/zd18_thss.dir/flags.make
+CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o: ../20201014_路径总和/hasPathSum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o -c /Users/zd18/DailyAlgorithm/20201014_路径总和/hasPathSum.cpp
 
-CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zd/CLionProjects/zd18_thss/20201009_好叶子节点对的数量/countPairs.cpp > CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.i
+CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zd18/DailyAlgorithm/20201014_路径总和/hasPathSum.cpp > CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.i
 
-CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zd/CLionProjects/zd18_thss/20201009_好叶子节点对的数量/countPairs.cpp -o CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.s
+CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zd18/DailyAlgorithm/20201014_路径总和/hasPathSum.cpp -o CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.s
 
 # Object files for target zd18_thss
 zd18_thss_OBJECTS = \
-"CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o"
+"CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o"
 
 # External object files for target zd18_thss
 zd18_thss_EXTERNAL_OBJECTS =
 
-zd18_thss: CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o
+zd18_thss: CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o
 zd18_thss: CMakeFiles/zd18_thss.dir/build.make
 zd18_thss: CMakeFiles/zd18_thss.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable zd18_thss"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable zd18_thss"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zd18_thss.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/zd18_thss.dir/clean:
 .PHONY : CMakeFiles/zd18_thss.dir/clean
 
 CMakeFiles/zd18_thss.dir/depend:
-	cd /home/zd/CLionProjects/zd18_thss/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zd/CLionProjects/zd18_thss /home/zd/CLionProjects/zd18_thss /home/zd/CLionProjects/zd18_thss/cmake-build-debug /home/zd/CLionProjects/zd18_thss/cmake-build-debug /home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles/zd18_thss.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zd18/DailyAlgorithm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zd18/DailyAlgorithm /Users/zd18/DailyAlgorithm /Users/zd18/DailyAlgorithm/cmake-build-debug /Users/zd18/DailyAlgorithm/cmake-build-debug /Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles/zd18_thss.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/zd18_thss.dir/depend
 

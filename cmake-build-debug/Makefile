@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/zd/Downloads/clion-2020.2.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/zd/Downloads/clion-2020.2.3/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zd/CLionProjects/zd18_thss
+CMAKE_SOURCE_DIR = /Users/zd18/DailyAlgorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zd/CLionProjects/zd18_thss/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zd18/DailyAlgorithm/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/zd/CLionProjects/zd18_thss/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/zd/Downloads/clion-2020.2.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/zd/Downloads/clion-2020.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles /home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles /Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ zd18_thss/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/build
 .PHONY : zd18_thss/fast
 
-20201009_好叶子节点对的数量/countPairs.o: 20201009_好叶子节点对的数量/countPairs.cpp.o
+20201014_路径总和/hasPathSum.o: 20201014_路径总和/hasPathSum.cpp.o
 
-.PHONY : 20201009_好叶子节点对的数量/countPairs.o
+.PHONY : 20201014_路径总和/hasPathSum.o
 
 # target to build an object file
-20201009_好叶子节点对的数量/countPairs.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.o
-.PHONY : 20201009_好叶子节点对的数量/countPairs.cpp.o
+20201014_路径总和/hasPathSum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o
+.PHONY : 20201014_路径总和/hasPathSum.cpp.o
 
-20201009_好叶子节点对的数量/countPairs.i: 20201009_好叶子节点对的数量/countPairs.cpp.i
+20201014_路径总和/hasPathSum.i: 20201014_路径总和/hasPathSum.cpp.i
 
-.PHONY : 20201009_好叶子节点对的数量/countPairs.i
+.PHONY : 20201014_路径总和/hasPathSum.i
 
 # target to preprocess a source file
-20201009_好叶子节点对的数量/countPairs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.i
-.PHONY : 20201009_好叶子节点对的数量/countPairs.cpp.i
+20201014_路径总和/hasPathSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.i
+.PHONY : 20201014_路径总和/hasPathSum.cpp.i
 
-20201009_好叶子节点对的数量/countPairs.s: 20201009_好叶子节点对的数量/countPairs.cpp.s
+20201014_路径总和/hasPathSum.s: 20201014_路径总和/hasPathSum.cpp.s
 
-.PHONY : 20201009_好叶子节点对的数量/countPairs.s
+.PHONY : 20201014_路径总和/hasPathSum.s
 
 # target to generate assembly for a file
-20201009_好叶子节点对的数量/countPairs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201009_好叶子节点对的数量/countPairs.cpp.s
-.PHONY : 20201009_好叶子节点对的数量/countPairs.cpp.s
+20201014_路径总和/hasPathSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.s
+.PHONY : 20201014_路径总和/hasPathSum.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... zd18_thss"
-	@echo "... 20201009_好叶子节点对的数量/countPairs.o"
-	@echo "... 20201009_好叶子节点对的数量/countPairs.i"
-	@echo "... 20201009_好叶子节点对的数量/countPairs.s"
+	@echo "... 20201014_路径总和/hasPathSum.o"
+	@echo "... 20201014_路径总和/hasPathSum.i"
+	@echo "... 20201014_路径总和/hasPathSum.s"
 .PHONY : help
 
 

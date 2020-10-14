@@ -1,3 +1,3 @@
-/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/zd/CLionProjects/zd18_thss/cmake-build-debug/CMakeFiles/zd18_thss.dir
+/Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles/zd18_thss.dir
