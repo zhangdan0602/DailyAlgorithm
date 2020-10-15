@@ -77,27 +77,27 @@ include CMakeFiles/zd18_thss.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/zd18_thss.dir/flags.make
 
-CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o: CMakeFiles/zd18_thss.dir/flags.make
-CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o: ../20201014_路径总和/hasPathSum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o -c /Users/zd18/DailyAlgorithm/20201014_路径总和/hasPathSum.cpp
+CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.o: CMakeFiles/zd18_thss.dir/flags.make
+CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.o: ../20201015_合法二叉搜索树/isValidBST.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.o -c /Users/zd18/DailyAlgorithm/20201015_合法二叉搜索树/isValidBST.cpp
 
-CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zd18/DailyAlgorithm/20201014_路径总和/hasPathSum.cpp > CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.i
+CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zd18/DailyAlgorithm/20201015_合法二叉搜索树/isValidBST.cpp > CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.i
 
-CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zd18/DailyAlgorithm/20201014_路径总和/hasPathSum.cpp -o CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.s
+CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zd18/DailyAlgorithm/20201015_合法二叉搜索树/isValidBST.cpp -o CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.s
 
 # Object files for target zd18_thss
 zd18_thss_OBJECTS = \
-"CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o"
+"CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.o"
 
 # External object files for target zd18_thss
 zd18_thss_EXTERNAL_OBJECTS =
 
-zd18_thss: CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o
+zd18_thss: CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.o
 zd18_thss: CMakeFiles/zd18_thss.dir/build.make
 zd18_thss: CMakeFiles/zd18_thss.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zd18/DailyAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable zd18_thss"

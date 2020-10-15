@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o"
+  "CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.o"
   "zd18_thss"
   "zd18_thss.pdb"
 )

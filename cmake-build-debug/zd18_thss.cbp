@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/zd18/DailyAlgorithm/20201014_路径总和/hasPathSum.cpp">
+		<Unit filename="/Users/zd18/DailyAlgorithm/20201015_合法二叉搜索树/isValidBST.cpp">
 			<Option target="zd18_thss"/>
 		</Unit>
 		<Unit filename="/Users/zd18/DailyAlgorithm/CMakeLists.txt">

@@ -143,32 +143,32 @@ zd18_thss/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/build
 .PHONY : zd18_thss/fast
 
-20201014_路径总和/hasPathSum.o: 20201014_路径总和/hasPathSum.cpp.o
+20201015_合法二叉搜索树/isValidBST.o: 20201015_合法二叉搜索树/isValidBST.cpp.o
 
-.PHONY : 20201014_路径总和/hasPathSum.o
+.PHONY : 20201015_合法二叉搜索树/isValidBST.o
 
 # target to build an object file
-20201014_路径总和/hasPathSum.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.o
-.PHONY : 20201014_路径总和/hasPathSum.cpp.o
+20201015_合法二叉搜索树/isValidBST.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.o
+.PHONY : 20201015_合法二叉搜索树/isValidBST.cpp.o
 
-20201014_路径总和/hasPathSum.i: 20201014_路径总和/hasPathSum.cpp.i
+20201015_合法二叉搜索树/isValidBST.i: 20201015_合法二叉搜索树/isValidBST.cpp.i
 
-.PHONY : 20201014_路径总和/hasPathSum.i
+.PHONY : 20201015_合法二叉搜索树/isValidBST.i
 
 # target to preprocess a source file
-20201014_路径总和/hasPathSum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.i
-.PHONY : 20201014_路径总和/hasPathSum.cpp.i
+20201015_合法二叉搜索树/isValidBST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.i
+.PHONY : 20201015_合法二叉搜索树/isValidBST.cpp.i
 
-20201014_路径总和/hasPathSum.s: 20201014_路径总和/hasPathSum.cpp.s
+20201015_合法二叉搜索树/isValidBST.s: 20201015_合法二叉搜索树/isValidBST.cpp.s
 
-.PHONY : 20201014_路径总和/hasPathSum.s
+.PHONY : 20201015_合法二叉搜索树/isValidBST.s
 
 # target to generate assembly for a file
-20201014_路径总和/hasPathSum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201014_路径总和/hasPathSum.cpp.s
-.PHONY : 20201014_路径总和/hasPathSum.cpp.s
+20201015_合法二叉搜索树/isValidBST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zd18_thss.dir/build.make CMakeFiles/zd18_thss.dir/20201015_合法二叉搜索树/isValidBST.cpp.s
+.PHONY : 20201015_合法二叉搜索树/isValidBST.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... zd18_thss"
-	@echo "... 20201014_路径总和/hasPathSum.o"
-	@echo "... 20201014_路径总和/hasPathSum.i"
-	@echo "... 20201014_路径总和/hasPathSum.s"
+	@echo "... 20201015_合法二叉搜索树/isValidBST.o"
+	@echo "... 20201015_合法二叉搜索树/isValidBST.i"
+	@echo "... 20201015_合法二叉搜索树/isValidBST.s"
 .PHONY : help
 
 
