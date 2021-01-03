@@ -1,0 +1,120 @@
+//
+// Created by ZD-Mac on 2020-12-14.
+//
+/*
+ * 给你一个字符串 num 和一个整数 k 。其中，num 表示一个很大的整数，字符串中的每个字符依次对应整数上的各个数位 。
+
+你可以交换这个整数相邻数位的数字 最多 k 次。
+
+请你返回你能得到的最小整数，并以字符串形式返回。
+
+示例 1：
+
+输入：num = "4321", k = 4
+输出："1342"
+解释：4321 通过 4 次交换相邻数位得到最小整数的步骤如上图所示。
+示例 2：
+
+输入：num = "100", k = 1
+输出："010"
+解释：输出可以包含前导 0 ，但输入保证不会有前导 0 。
+示例 3：
+
+输入：num = "36789", k = 1000
+输出："36789"
+解释：不需要做任何交换。
+示例 4：
+
+输入：num = "22", k = 22
+输出："22"
+示例 5：
+
+输入：num = "9438957234785635408", k = 23
+输出："0345989723478563548"
+ 
+
+提示：
+
+1 <= num.length <= 30000
+num 只包含 数字 且不含有 前导 0 。
+1 <= k <= 10^9
+
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ */
+#include <string>
+#include <vector>
+#include <queue>
+#include <iostream>
+
+using namespace std;
+
+class BIT{
+private:
+    vector<int> tree;
+    int n;
+
+public:
+    BIT(int _n): n(_n), tree(_n + 1){}
+
+    static int lowbit(int x){
+        return x & (-x);
+    }
+
+    void update(int x){
+        while (x <= n){
+            ++tree[x];
+            x += lowbit(x);
+        }
+    }
+
+    int query(int x) const {
+        int ans = 0;
+        while (x){
+            ans += tree[x];
+            x -= lowbit(x);
+        }
+        return ans;
+    }
+
+    int query(int x, int y) const {
+        return query(y) - query(x - 1);
+    }
+
+};
+class Solution {
+public:
+    string minInteger(string num, int k) {
+        int n = num.size();
+        vector<queue<int>> pos(10);
+        for (int l = 0; l < n; ++l) {
+            pos[num[l] - '0'].push(l + 1);
+        }
+        string ans;
+        BIT bit(n);
+        for (int i = 1; i <= n; ++i) {
+            for (int j = 0; j < 10; ++j) {
+                if (!pos[j].empty()){
+                    int behind = bit.query(pos[j].front() + 1, n);
+                    int dist = pos[j].front() + behind - i;
+                    if (dist <= k){
+                        bit.update(pos[j].front());
+                        pos[j].pop();
+                        ans += (j + '0');
+                        k -= dist;
+                        break;
+                    }
+                }
+            }
+        }
+        return ans;
+    }
+};
+int main(){
+    Solution solution;
+    string res = solution.minInteger("4321", 4);
+    cout << res << endl;
+    return 0;
+}
